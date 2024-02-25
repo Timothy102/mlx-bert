@@ -1,22 +1,43 @@
-# MLX Bert Test
+# MLX Bert for Open Text Shield (OTS)
 
-## Requirements
+MLX Bert for OTS is a sophisticated machine learning model designed to enhance text-based security protocols. By leveraging the power of BERT (Bidirectional Encoder Representations from Transformers), MLX Bert provides an advanced solution for analyzing and processing textual data, ensuring high levels of protection and efficiency.
 
-* mlx==1.0.0
-* pandas==1.1.4
-* numpy==1.19.5
-* mne==0.22.0
-* matplotlib==3.3.3
-* torch==1.5
+## Installation
 
-`
+To get started with MLX Bert for OTS, you'll need to install the necessary dependencies. Run the following command in your terminal:
+
+```bash
 pip3 install -r requirements.txt
+```
+
+## Usage
+
+### Loading the BERT Model
+Before starting the training process, you need to load the BERT model. Execute the following command to accomplish this:
+
+`
+python3 load_bert.py
 `
 
+### Training the OTS model on apple silicon 
 
+To start the training process, execute the following command:
+
+`
+python train_bert.py
+`
 ## Contact and Acknowledgements
 
-Please, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/tim-cvetko-32842a1a6/) or [Gmail](cvetko.tim@gmail.com).
+We appreciate your interest in MLX Bert for OTS and welcome any questions, feedback, or contributions. Please feel free to reach out to us via the following channels:
+
+### For OTS inquiries:
+- **LinkedIn**: [Ameed Jamous](https://www.linkedin.com/in/ajamous/)
+- **Email**: [a.jamous@telecomsxchange.com](mailto:a.jamous@telecomsxchange.com)
+- **GitHub**: [TelecomsxchangeAPI/Open-Text-Shield](https://github.com/TelecomsxchangeAPI/Open-Text-Shield)
+
+### For MLX-BERT inquiries:
+- **LinkedIn**: [Tim Cvetko](https://www.linkedin.com/in/tim-cvetko-32842a1a6/)
+- **Gmail**: [cvetko.tim@gmail.com](mailto:cvetko.tim@gmail.com)
 
 ## License
 
